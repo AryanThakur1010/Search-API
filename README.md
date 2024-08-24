@@ -1,8 +1,8 @@
-###Supplier Search API
+#Supplier Search API
 
 The Supplier Search API allows buyers to search for manufacturers based on location, nature of business, and manufacturing processes. The API supports pagination and provides detailed information about suppliers that match the specified criteria.
 
-#Security Best Practices
+###Security Best Practices
 
 To protect sensitive user data and prevent potential vulnerabilities, the following best practices are implemented:
 
