@@ -10,7 +10,7 @@ To protect sensitive user data and prevent potential vulnerabilities, the follow
 - **Data Encryption**: All API requests and responses are encrypted using HTTPS to protect data during transmission. Sensitive data stored in the database is also encrypted to ensure its security.
 - **Input Validation and Sanitization**: All user inputs are validated to prevent injection attacks. Parameters must meet specific criteria (e.g., `location` must be a valid city name, `natureOfBusiness` and `manufacturingProcess` must be from predefined sets). 
 
-# #API Endpoints
+# API Endpoints
 
 ### Query Suppliers
 
