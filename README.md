@@ -2,7 +2,7 @@
 
 The Supplier Search API allows buyers to search for manufacturers based on location, nature of business, and manufacturing processes. The API supports pagination and provides detailed information about suppliers that match the specified criteria.
 
-# Security Best Practices
+## Security Best Practices
 
 To protect sensitive user data and prevent potential vulnerabilities, the following best practices are implemented:
 
@@ -10,7 +10,7 @@ To protect sensitive user data and prevent potential vulnerabilities, the follow
 - **Data Encryption**: All API requests and responses are encrypted using HTTPS to protect data during transmission. Sensitive data stored in the database is also encrypted to ensure its security.
 - **Input Validation and Sanitization**: All user inputs are validated to prevent injection attacks. Parameters must meet specific criteria (e.g., `location` must be a valid city name, `natureOfBusiness` and `manufacturingProcess` must be from predefined sets). 
 
-# API Endpoints
+## API Endpoints
 
 ### Query Suppliers
 
