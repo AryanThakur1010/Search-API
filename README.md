@@ -1,2 +1,2 @@
 # Search-API
-Makersharks Assignment -in main branch
+Makersharks Assignment -in master branch
