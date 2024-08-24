@@ -30,4 +30,4 @@ First, clone the repository using `git clone https://github.com/your-repo/suppli
 
 Ensure that you have Java 17 and Spring Boot 3.x installed, and use PostgreSQL/MySQL or any other supported database for configuration.
 
-Documented the api using Swagger.
+Documented the api using Swagger.After running the application go to http://localhost:8080/swagger-ui/index.html#/
