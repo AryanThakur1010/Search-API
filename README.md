@@ -10,9 +10,9 @@ To protect sensitive user data and prevent potential vulnerabilities, the follow
 - **Data Encryption**: All API requests and responses are encrypted using HTTPS to protect data during transmission. Sensitive data stored in the database is also encrypted to ensure its security.
 - **Input Validation and Sanitization**: All user inputs are validated to prevent injection attacks. Parameters must meet specific criteria (e.g., `location` must be a valid city name, `natureOfBusiness` and `manufacturingProcess` must be from predefined sets). 
 
-# API Endpoints
+# #API Endpoints
 
-## Query Suppliers
+### Query Suppliers
 
 - **URL**: `/api/supplier/query`
 - **Method**: `POST`
@@ -24,7 +24,7 @@ To protect sensitive user data and prevent potential vulnerabilities, the follow
   - `page` (int): Page number for pagination.
   - `size` (int): Number of results per page.
 
-# To run the Supplier Search API application, follow these steps:
+## To run the Supplier Search API application, follow these steps:
 
 First, clone the repository using `git clone https://github.com/your-repo/supplier-search-api.git`. Next, configure your database by updating the `src/main/resources/application.properties` file with your database connection settings. You need to set `spring.datasource.url` to your database URL, `spring.datasource.username` to your database username, and `spring.datasource.password` to your database password. After configuring the database, build the application using Maven with the command `mvn clean install`. Once the build is complete, start the application using Maven with `mvn spring-boot:run`. The application will be running at `http://localhost:8080`, and you can access it via this URL in your web browser or API testing tool.
 
