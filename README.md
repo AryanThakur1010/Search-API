@@ -24,10 +24,6 @@ To protect sensitive user data and prevent potential vulnerabilities, the follow
   - `page` (int): Page number for pagination.
   - `size` (int): Number of results per page.
 
-#### Example Request URL
-
-```plaintext
-
 # To run the Supplier Search API application, follow these steps:
 
 First, clone the repository using `git clone https://github.com/your-repo/supplier-search-api.git`. Next, configure your database by updating the `src/main/resources/application.properties` file with your database connection settings. You need to set `spring.datasource.url` to your database URL, `spring.datasource.username` to your database username, and `spring.datasource.password` to your database password. After configuring the database, build the application using Maven with the command `mvn clean install`. Once the build is complete, start the application using Maven with `mvn spring-boot:run`. The application will be running at `http://localhost:8080`, and you can access it via this URL in your web browser or API testing tool.
